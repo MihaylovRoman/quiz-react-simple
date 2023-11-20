@@ -1,41 +1,71 @@
-.wrapper{
+body{
+    background-color: rgb(158, 42, 152);
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
-.window__button{
-    text-transform: uppercase;
-    cursor: pointer;
-    color: #fff;
-    background-color: #6d6868;
-    border: none;
-    padding: 20px;
-    width: 200px;
-    border-radius: 50px;
-}
-.overlay{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(0,0,0, 0.8);
-}
-.modalWindow{
-    position: absolute;
-    height: 100px;
-    width: 100px;
+.wrapper{
     background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 230px;
 }
-.closeBtn{
-    position: absolute;
-    bottom: 100px;
-    left: 100px;
-    color: #fff;
-    background: none;
-    border: none;
+ul{
+    padding: 0;
+}
+.li{
+    font-size: 12px;
+    padding-left: 0;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #5e5b5b;
+    margin-bottom: 5px;
+    width: 94%;
+    border-radius: 10px;
+    background-color: #dad5d500;
+}
+.progress{
+    width: 350px;
+    height: 15px;
+    background: #7e7c7c;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+.game{
+    background-color: rgb(204, 1, 255);
+    border-radius: 15px;
+    height: 15px;
+    transition: 0.4s ease;
 }
 
+.result{
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 230px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+button{
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(200, 100, 200);
+}
+img{
+    width: 110px;
+    height: 110px;
+}
